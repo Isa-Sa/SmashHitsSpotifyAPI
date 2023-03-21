@@ -1,0 +1,64 @@
+/* Playlist background*/
+.Playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 37%;
+    max-height: 950px;
+    padding: 2.27rem 1.16rem;
+    background-color:  #060d13;
+    box-shadow: 0 16px 24px 8px #ff66ff;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    border: 5px #ff66ff;
+    border-style: inset double outset double;
+    border-radius: 9px;
+  }
+  /* Playlist */
+  .Playlist input {
+    width: 100%;
+    border: 0;
+    margin-top: -30px;
+    outline: 0;
+    background: transparent;
+    font-weight: bold;
+    border-bottom: 5px solid #ff66ff;
+    border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.55rem;
+    color: #fff;
+  }
+/* Save to Spotify button */
+  .Playlist-save {
+    cursor: pointer;
+    width: 11rem;
+    padding: .70rem 0;
+    border-radius: 54px;
+    border-width: 0px;
+    border: 2px solid beige;
+    margin-top: 1.27rem;
+    background-color: #6c41ec;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: background-color .25s;
+    color: #fff;
+    font-weight: 1000;
+    font-family: 'Bungee Shade', cursive;
+  }
+  
+  .Playlist-save:hover {
+    background-color: rgba(108, 65, 233, .7);
+  }
+  
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .Playlist {
+      width: 90%;
+    }
+  }

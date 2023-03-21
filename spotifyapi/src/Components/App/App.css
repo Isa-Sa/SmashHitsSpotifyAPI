@@ -1,0 +1,62 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+html {
+  font-size: 18px;
+}
+
+h1 {
+  padding: 20px 0;
+  background-color: #060d13;
+  text-align: center;
+  font-size: 70px;
+  border-bottom: 3px double white;
+  color: yellowgreen;
+  font-weight: 1000;
+  font-family: 'Bungee Shade', cursive;             
+}
+
+h1 .highlight {
+  color: #ff66ff;
+}
+
+h2 {
+  font-family: 'Jost', sans-serif;
+  font-size: 1.55rem;
+}
+
+h3 {
+  font-family: 'Jost', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.App {
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url('./background_photo_desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-weight: 500;
+  font-family: 'Jost', sans-serif;
+  color: #fff;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-family: 'Jost', sans-serif;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}

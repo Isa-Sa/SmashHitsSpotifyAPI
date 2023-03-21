@@ -1,0 +1,42 @@
+/*Styling for Search Result box*/
+.SearchResults {
+    width: 50%;
+    height: 950px;
+    overflow-y: scroll;
+    padding: .88rem;
+    background-color: #060d13;
+    box-shadow: 0 16px 24px 8px gold;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    border: 5px gold;
+    border-style: inset double outset double;
+    border-radius: 9px;
+  }
+
+ /*How to target the fetched data? tracks, Tracklist doesnt work
+ SearchResults styling only targets the song title, not Artist/Album?*/
+
+  /*Search Results header and border bottom*/
+  h2 {
+    width: 100%;
+    margin-top: 6px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    border-bottom: 5px solid gold;
+    border-radius: 5px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.55rem;
+    color: #fff;
+  }
+
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
